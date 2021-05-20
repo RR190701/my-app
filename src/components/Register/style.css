@@ -1,0 +1,75 @@
+.register-div {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.register-paper {
+    width: 60%;
+    margin:6rem auto;
+    box-sizing: border-box;
+    padding: 1.3rem 0rem 2rem;
+}
+
+.register-form{
+    /* border: red solid 3px; */
+    width: 87%;
+    display: flex!important;
+    margin: 0rem auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.half-width-input {
+    width: 46%!important;
+    margin: 0.5rem 0rem!important;
+}
+.full-width-input{
+    width: 100%;
+    margin: 0.5rem 0rem;
+}
+.create-account{
+    width: 100%;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #00A36C;
+    margin: 2rem 0rem 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.register-button-div{
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.register-button{
+    width: 8rem;
+    padding: 0.6rem!important;
+    border-radius: 5pc!important;
+    font-size: .7rem!important;
+    background-color: #00A36C!important;
+    color: white!important;
+}
+.text-field{
+    width: 100%;
+background-color:#F5F5DC;
+font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+  border:none!important;
+  font-size: .7rem!important;
+}
+.password-match-error{
+    color: red;
+    font-size: .8rem;
+}
+
+@media(max-width:875px) {
+    .half-width-input {
+        width: 100%!important;
+    }
+    .register-paper {
+        width: 98%;
+        margin:1rem auto;
+        padding: 1rem 0rem 1.3rem;
+    }
+    .create-account{
+        font-size: 1.7rem;
+    }
+}

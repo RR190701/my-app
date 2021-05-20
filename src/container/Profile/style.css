@@ -1,0 +1,64 @@
+.profile-container{
+width: 100%;
+box-sizing: border-box;
+}
+.profile-div {
+    width: 50%;   
+    margin: 4rem auto;
+    padding: 2rem;
+    /* box-sizing: border-box; */
+}
+.logout-div>h1{
+    margin: 0rem;
+    font-size: 2.3rem;
+}
+.logout-buttton{
+  margin-top: 0.5rem!important;
+  padding: .4rem 0rem;
+  font-size: 0.9rem!important;
+}
+.logout-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+    /* border: solid red 2px; */
+}
+.modal-paper{
+    position: absolute;
+    width: 470px;
+    padding: 2rem 1.8rem;
+    /* padding:2rem */
+}
+.modal-haeding{
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.modal-input-div{
+    margin-bottom: 3rem;
+}
+.modal-input{
+    width: 100%;
+    
+}
+
+@media(max-width:1175px){
+    .profile-div {
+        width: 75%;   
+        margin: 4rem auto;
+        padding: 2rem;
+        /* box-sizing: border-box; */
+    }
+
+}
+
+@media(max-width:675px){
+    .profile-div {
+        width: 98%;   
+        padding: 2rem;
+        /* box-sizing: border-box; */
+    }
+
+}
